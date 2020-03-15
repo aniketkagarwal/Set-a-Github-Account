@@ -1,0 +1,24 @@
+Version control systems are increasingly indispensable in modern software development as versioning allows you to keep track of your software at the source level. You can track changes, revert to previous stages, and branch to create alternate versions of files and directories.
+One of the most popular version control systems currently available is Git. Many projects’ files are maintained in a Git repository, and sites like GitHub, GitLab, and Bitbucket help to facilitate software development project sharing and collaboration.
+
+Installing Git
+
+1. Download and install a text editor of your choice among the given options: Atom, Notepad++ or Visual Studio Code. If you already have one of these text editors, you can skip this step. 
+   Note: It seems you need the registered version of Sublime Text to continue with the installation. So Sublime Text won’t work.
+2. Download the installer for Windows from the Git official site by clicking on the given link:  https://git-scm.com/download/win. The download will start automatically.
+3. Execute the downloaded file. Select the download location by clicking on the Browse button and click on Next. In the page Select Components, you can leave the options at their defaults.
+4. The Windows Explorer integration > Git Bash Here option allows opening the Git command prompt (Git Bash) from any folder by click with the right mouse button on the folder and selecting Git Bash Here.
+5. Note: Git for Windows comes with it's own command prompt (Git Bash), that besides git commands it has some useful Unix commands (and it looks better than Windows default prompt).
+6. Click on Next when prompted for Select Start Menu Folder.
+7. The next window allows you to choose the default editor used by Git. Don’t choose Vim (the default option) if you are a beginner, or you will be stuck there forever. Choose the editor which you downloaded in the first step.
+8. On the next screen (Adjusting your PATH environment), choose Use Git from the Windows Command Prompt and click on Next.
+9. Keep clicking on Next (default values are selected) till the final installation screen appears. Click on Install to install Git with the specified settings.
+10. Click on Finish and Git is installed. :)
+
+Setting up Git
+
+1. Open the drive (say F:) in which you want to work on your project. Right Click on the right side of the screen and select Git Bash Here.
+2. The Git Bash terminal opens. Type the following commands You need to specify your username and email ID of your GitHub account to use git. Type the following commands in the terminal:
+    
+    $ git config --global user.name "your_GitHub_user_name"
+    $ git config --global user.email "your_GitHub_user_email"
