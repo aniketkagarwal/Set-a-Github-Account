@@ -1,0 +1,12 @@
+Cloning a repository means that you’ll copy all of the files and directories on the GitHub server onto your machine so you can work with them.
+Now you need to clone the project that you created on GitHub to your workspace. To do this, go to the folder in which you want to clone your repository.
+
+Cloning your Repository
+
+1. Go to your project page (repository) on GitHub by searching its name in the Repositories panel on the left of the screen and clicking it.
+2. There will be a green button Clone or download containing the link of the repository on the right side of the screen. Clicking on that will open a drop-down dialogue box. Copy the link given in the box.
+3. Now open the Git Bash terminal by right clicking inside the folder or drive in which you want to clone your repository and selecting Git Bash Here. Run the git clone command on the terminal window and pass the link that you copied with the command as shown.
+	  
+    $ git clone link-that-you-just-copied 
+
+4. Your repository will be cloned now. You can access the repository folder which was created in your workspace when you cloned it.
