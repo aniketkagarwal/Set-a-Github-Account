@@ -1,0 +1,16 @@
+After you’ve made and merged all the changes, you can now send them to your remote repository on GitHub.
+
+Pushing the changes
+
+1. You will use git push origin master to do this. You can also just use git push. It’ll have the same result.  But when you push changes for first time on your workspace, you need to do git push origin master so that Git will know that your workspace is the origin of the push. A dialogue box will appear asking for your GitHub username and password. Fill in the information and click on Login.
+
+    $ git push origin master
+
+2. The dialogue box will close and the commit will be proceed.
+3. Now your commit will appear on your GitHub repository’s page.
+
+
+Conclusion
+
+In this tutorial, you learned how to create a project on GitHub so that you can track your progress every time you study something new. This will help you get to know the command line (Terminal), Git commands, and GitHub. Besides that, it’ll help you create a nice portfolio that you can show in job interviews.
+Practicing like this will also help you better understand how to use Git with remote repositories (the repositories hosted on some platform like GitHub). You’ll also level up your knowledge and skills on the Terminal.
