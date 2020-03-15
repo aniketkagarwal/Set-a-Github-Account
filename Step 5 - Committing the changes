@@ -1,0 +1,19 @@
+Once you finish a change to your project, you should commit the change to your remote repository (the one on GitHub’s servers).
+To commit something is to tell Git that you are putting your changes in the queue to be pushed (sent) to your remote repository.
+Imagine that you just created an HTML page and added some titles and text to it. You have the first version of this document now, so you should commit it.
+To do this, run some commands so that Git understands that we want to send our changes do the remote repo.
+Make sure you are inside the repository whose changes you want to commit to the remote server.
+
+Committing the changes
+
+1. With the git status command, you can see which changed files you will commit to the server. The files shown in red are the files in which changes are made (compared to the last commit, if any) but not yet staged for the commit.
+    
+    $ git status
+
+2. Run git add file_name to tell Git to stage the file. Alternatively, you can run git add --all or git add . (dot), both of them having minor differences, to send all the files that you made some changes to. Run git status to observe the changes to your working tree. The files shown in green are the files which are staged for the new commit.
+
+    $ git add .
+
+3. With that you can now commit the changes. Just run the git commit command, just like git commit -m “commit_message”. Remember to include a descriptive message of what was added to he commit. Run git status to observe the changes.
+
+    $ git commit -m “commit_message”
